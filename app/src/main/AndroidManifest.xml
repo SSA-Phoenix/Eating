@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="eu.ssaphoenix.eating">
 
-    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CAMERA"/>
 
     <application
             android:allowBackup="true"
@@ -18,7 +18,12 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name="GetText" >
+        <activity android:name=".GetText">
+        </activity>
+        <activity
+                android:name=".BlockChain"
+                android:label="@string/title_activity_block_chain"
+                android:theme="@style/AppTheme.NoActionBar">
         </activity>
     </application>
 

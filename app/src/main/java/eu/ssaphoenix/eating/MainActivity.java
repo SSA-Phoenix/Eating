@@ -26,4 +26,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void onClickBlockchain(View v) {
+        // launch Ocr capture activity.
+        Intent intent = new Intent(this, BlockChain.class);
+        startActivity(intent);
+
+    }
+
 }
