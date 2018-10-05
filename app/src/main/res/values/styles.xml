@@ -3,15 +3,9 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-
-        <color name="black">#1f2532</color>
-        <color name="blue">#28acc1</color>
-        <color name="purple">#9f5069</color>
-        <color name="pink">#f6cac9</color>
-        <color name="white">#ffffff</color>
+        <item name="colorPrimary">@color/eatin_white</item>
+        <item name="colorPrimaryDark">@color/eatin_black</item>
+        <item name="colorAccent">@color/eatin_pink</item>
     </style>
 
 </resources>
